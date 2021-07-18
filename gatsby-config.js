@@ -14,6 +14,7 @@ module.exports = {
     "gatsby-plugin-sitemap",
     'gatsby-plugin-robots-txt',
     "gatsby-plugin-image",
+    "gatsby-plugin-netlify",
     `gatsby-alias-imports`,
     "gatsby-transformer-sharp",
     "gatsby-transformer-remark",
