@@ -1,54 +1,42 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { graphql } from "gatsby"
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-
+import Layout from "../components/Layout"
+import Seo from 'components/Seo';
 // markup
-const NotFoundPage = () => {
+const NotFound = ({location, data}) => {
+
   return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
+    <Layout>
+      <Seo
+        title={'404 not found | 4SPACE Design'}
+        pathname="/404"
+      />
+      <section className="section page">
+        <div className="container page-content">
+          <h1>Page not found</h1>
+          <h2 class="css-4ml5ul"><em>Sorry</em> 😔—we couldn’t find what you were looking for.</h2>
+          <p><strong>Need help finding something?</strong></p>
+          <p><a href="/">4SPACE Design Homepage</a></p>
+          <p><strong>Contact us</strong></p>
+          <div className="page-content" ></div>
+        </div>
+      </section>
+    </Layout>
   )
 }
 
-export default NotFoundPage
+export const query = graphql`
+  query{
+    site {
+      siteMetadata {
+        title
+        description
+        siteUrl
+        twitter
+        banner
+      }
+    }
+  }`
+export default NotFound

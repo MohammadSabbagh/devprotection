@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+@import "~bulma/sass/utilities/initial-variables.sass";
+
+
+
+$primary: #fac110;
+$info: #38B9E0;
+$yel: #FBE440;
+$gold:#F6C510;
+$control-radius: 0;
+
+$header: $white-ter;
+
+$dark: hsl(0, 0%, 14%);
+$light: $white-ter;
+
+$link: $gold;
+$link-hover: $primary;
+$link-visited: $primary;
+
+// $body-background-color: $dark;
+// $body-color: #4B4E30;
+// $body-weight:$weight-light;
+
+// $navbar-background-color: transparent;
+// $navbar-item-color: $grey-light;
+// $navbar-item-hover-color: $white-bis;
+$navbar-item-hover-background-color:transparent;
+// $navbar-item-active-color:$white-ter;
+$navbar-item-active-background-color:transparent;
+
+$footer-background-color:transparent;
+$footer-padding: 3rem 1.5rem;
+
+
+
+//$container-max-width:$widescreen;
+
+// $footer-color: #3e3e3e;
+// $footer-background-color: #f5f5f5
+
+//@import "~bulma/sass/utilities/_all";
+@import "~bulma/bulma.sass";
+
+@import "./_header.scss";
+@import "./_footer.scss";
+@import "./_layout.scss";
+@import "./_page.scss";

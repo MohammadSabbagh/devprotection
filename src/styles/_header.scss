@@ -1,0 +1,81 @@
+#header {
+  // padding-bottom: 1.5rem;
+  // @include from($desktop) {
+  //   padding-bottom: 3rem;
+  // }
+}
+
+#header .navbar{
+  //background-color:transparent;
+  min-height: 3rem;
+  align-items: center;
+
+  .navbar-brand {
+
+    align-items: center;
+
+    @include from($desktop) {margin-left: 0;}
+
+    .navbar-item { padding: 0;}
+
+    #logo {
+      height: 5rem;
+      @include from($desktop){
+        height: 7rem;
+      }
+    }
+
+    .navbar-burger.burger {
+      padding: .6rem;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0);
+      }
+    }
+
+  }
+
+  .navbar-menu {
+    box-shadow: none;
+    display: block;
+    height: 0;
+    transition: height .25s ease;
+    overflow: hidden;
+    padding: 0;
+
+    @include from($desktop) {
+      height: auto;
+      overflow:visible;
+    }
+
+    &.is-active{
+      height: 452px;
+      @include from($desktop) {height: auto;}
+    }
+
+    .navbar-end {
+      align-items: center;
+      margin: 1rem 0 0;
+      text-align: center;
+      @include from($desktop) {margin: 0 0 0 0;}
+    }
+
+    .navbar-item {
+      // font-size: 1.25rem;
+      // padding: 1rem;
+      //text-transform: lowercase;
+      text-align: center;
+      //font-weight: 500;
+      &.button {
+        margin: 1rem 0 0 0;
+        display: inline-flex;
+        @include from($desktop) {
+          margin: 0 1rem;
+        }
+      }
+    }
+  }
+}
+
+.svg-icon {
+  path{fill: $grey-lighter;}
+}
