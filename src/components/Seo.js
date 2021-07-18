@@ -49,7 +49,7 @@ const SEO = ({
       <meta name="description" content={pageDescription} />
       <meta name="image" content={pageImage} />
 
-      <meta property="og:site_name" content="4SPACE Design" />
+      <meta property="og:site_name" content={siteTitle} />
       <meta property="og:url" content={url} />
       <meta property="og:type" content={pageType} />
       <meta property="og:title" content={pageImage} />

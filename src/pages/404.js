@@ -10,7 +10,7 @@ const NotFound = ({location, data}) => {
   return (
     <Layout>
       <Seo
-        title={'404 not found | 4SPACE Design'}
+        title={'404 not found'}
         pathname="/404"
       />
       <section className="section page">
