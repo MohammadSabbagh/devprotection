@@ -3,10 +3,11 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "components/Layout"
 import Seo from 'components/Seo';
+import Enviro from 'assets/media/bg.jpg';
 
 // markup
-const About = ({location, data}) => {
-
+const Environment = ({location, data}) => {
+  const page = data.markdownRemark
   // extract html .replace(/<[^>]*>?/gm, '');
   return (
     <Layout>
@@ -15,7 +16,12 @@ const About = ({location, data}) => {
       />
       <section className="section page">
         <div className="container">
-          <div className="page-content" ></div>
+          <div className="content banner">
+            <img src={Enviro} />
+          </div>
+          <div className="content"
+            dangerouslySetInnerHTML={{ __html: page.html }}
+          />
         </div>
       </section>
     </Layout>
@@ -24,16 +30,10 @@ const About = ({location, data}) => {
 
 export const query = graphql`
   query{
-    site {
-      siteMetadata {
-        title
-        description
-        siteUrl
-        twitter
-        banner
-      }
+    markdownRemark(frontmatter: {title: {eq: "environment"}}) {
+      html
     }
   }`
 
 
-export default About
+export default Environment

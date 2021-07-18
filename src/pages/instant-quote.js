@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link, navigate  } from "gatsby"
 import Layout from "../components/Layout"
 import Seo from 'components/Seo'
-import InstantQuote from 'components/InstantQuote'
+import ContactForm from 'components/ContactForm'
 // markup
 const Instantquote = ({location}) => {
   const goBack = () => {
@@ -20,17 +20,12 @@ const Instantquote = ({location}) => {
         pathname={location.pathname}
         translated
       />
-      <InstantQuote openQuote={true} onCloseQuote={goBack} />
-      <section className="section is-large ">
+
+      <section className="section">
         <div className="container">
-        </div>
-      </section>
-      <section className="section is-large ">
-        <div className="container">
-        </div>
-      </section>
-      <section className="section is-large ">
-        <div className="container">
+          <div className="content">
+            <ContactForm />
+          </div>
         </div>
       </section>
     </Layout>

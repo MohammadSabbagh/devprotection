@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import Header from './Header'
 import Footer from './Footer'
 import "../styles/index.scss"
+import Certification from 'components/Certification'
 
 export default function Layout({ children }) {
   const [openQuote, setOpenQuote] = useState(false);
@@ -15,6 +16,7 @@ export default function Layout({ children }) {
           <>{children}</>
         {/*</div>
       </section>*/}
+      <Certification />
       <Footer/>
     </div>
   )

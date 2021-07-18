@@ -14,13 +14,13 @@ const NotFound = ({location, data}) => {
         pathname="/404"
       />
       <section className="section page">
-        <div className="container page-content">
-          <h1>Page not found</h1>
-          <h2 class="css-4ml5ul"><em>Sorry</em> 😔—we couldn’t find what you were looking for.</h2>
-          <p><strong>Need help finding something?</strong></p>
-          <p><a href="/">4SPACE Design Homepage</a></p>
-          <p><strong>Contact us</strong></p>
-          <div className="page-content" ></div>
+        <div className="containert">
+          <div className="content">
+            <h1>Page not found</h1>
+            <h2><em>Sorry</em> 😔—we couldn’t find what you were looking for.</h2>
+            <p><strong>Need help finding something?</strong></p>
+            <p><a href="/">go to Homepage</a></p>
+          </div>
         </div>
       </section>
     </Layout>

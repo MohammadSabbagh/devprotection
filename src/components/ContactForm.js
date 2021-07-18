@@ -46,7 +46,8 @@ export default function ContactForm() {
   }
 
   return (
-    <div>
+    <div className="contactForm">
+      <h3>Request a Quotation</h3>
       <form onSubmit={submit} >
         <div className="field">
           <label className="label">Name</label>

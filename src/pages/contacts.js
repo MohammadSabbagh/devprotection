@@ -6,6 +6,7 @@ import Layout from "components/Layout"
 import Seo from 'components/Seo';
 // markup
 const Contacts = ({location, data}) => {
+  const page = data.markdownRemark
 
   return (
     <Layout>
@@ -14,9 +15,9 @@ const Contacts = ({location, data}) => {
       />
       <section className="section page">
         <div className="container">
-          <h1></h1>
-
-          <div className="page-content"></div>
+          <div className="content"
+            dangerouslySetInnerHTML={{ __html: page.html }}
+          />
         </div>
       </section>
     </Layout>
@@ -25,14 +26,8 @@ const Contacts = ({location, data}) => {
 
 export const query = graphql`
   query{
-    site {
-      siteMetadata {
-        title
-        description
-        siteUrl
-        twitter
-        banner
-      }
+    markdownRemark(frontmatter: {title: {eq: "contacts"}}) {
+      html
     }
   }`
 

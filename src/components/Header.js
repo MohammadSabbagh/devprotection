@@ -38,7 +38,7 @@ export default function Header({onOpenQuote}) {
                 <Link activeClassName="is-active" className="navbar-item" to="/philosophy">Philosophy</Link>
                 <Link activeClassName="is-active" className="navbar-item" to="/environment">Environment</Link>
                 <Link activeClassName="is-active" className="navbar-item" to="/contacts">Contacts</Link>
-                <Link className="navbar-item button is-outlined is-primary " to="/instant-quote">Request a Quotation</Link>
+                <Link className="navbar-item button is-primary " to="/instant-quote">Request a Quotation</Link>
               </div>
             </div>
 

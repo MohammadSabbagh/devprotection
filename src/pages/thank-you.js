@@ -13,7 +13,7 @@ const Contacts = ({location, data}) => {
       />
       <section className="section page">
         <div className="container">
-          <div className="page-content">
+          <div className="content">
             <h1>Thank You</h1>
             <div></div>
           </div>

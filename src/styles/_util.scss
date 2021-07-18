@@ -10,6 +10,10 @@
   height: 100vh;
 }
 
+strong {
+  color:inherit;
+}
+
 .label {
     color: $body-color;
     font-weight: normal;
@@ -30,4 +34,9 @@
   width: 1em;
   height: 1em;
   font-size: 1.5rem;
+}
+
+.svg-icon {
+  color: inherit;
+  fill: currentColor;
 }

@@ -3,9 +3,7 @@ title: about
 date: "2017-09-18T23:19:51.246Z"
 ---
 
-#DEV Earthing & Lightning Protection Services CC
-
-Registration Number: CC/2021/01481
+# DEV Earthing & Lightning Protection Services CC
 
 Specialised in the protection of high- and low-power electrical systems and sub-systems through means of grounding/earthing and lightning protection.
 
@@ -21,10 +19,14 @@ DEV Earthing & Lightning Protection Services CC offer a wide range of services t
 
 Our operations are currently located in Namibia.
 
-##VISION
+Registration Number: CC/2021/01481
+
+## VISION
+
 To be a torchbearer in Earthing & Lightning Protection of High and Low Electrical Power Industries.
 
-##Mission
+## Mission
+
 To exceed our customers’ expectations in quality, delivery and cost efficiency through continuous improvement and customer interaction.
 The success of DEV Earthing & Lightning Protection Services CC will be defined by:
 - Growth.
@@ -33,9 +35,19 @@ The success of DEV Earthing & Lightning Protection Services CC will be defined b
 - Compliance with business requirements and standards.
 
 
-##human resources
+## human resources
+
 Our skilful and knowledgeable employees as well as state-of-the-art equipped are crucial in the delivery of our high-quality solutions.
 
 We believe in providing the right training, accredited certification, and practical knowledge to our employees in order for them to execute their duties in a responsible, professionally and ethical manner.
 
 We strive to stay up-to-date to the ever-changing marketplace and varying client requirements.
+
+## certification
+
+As per South African National Standards (SANS) and the International Electrotechnical Commission (IEC).
+
+- SANS 1063:2010 - (Earth Rod, Couplers and Connectors).
+- SANS 10199:2010 – (Design and Installations).
+- IEC 62305-3 – (Protection against Lightning-part 3: Physical damage to Structures and Life Hazards).
+- IEC 62395 – 4 – (Protection against Lightning – part 4: Electrical Systems within Structures).

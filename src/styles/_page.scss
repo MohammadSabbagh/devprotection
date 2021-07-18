@@ -1,18 +1,27 @@
 
-.page{
 
-   h1{
-     //color: $header;
-     font-size: 2rem;
-     margin-bottom: 2rem;
-   }
+.page-content{
 
-   .post-image{
-     margin-bottom: 2rem;
-   }
+  h3{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 300;
+  }
+  p {
+    margin: 0 0 2rem 0;
+    font-size: 1.25rem;
+    line-height: 1.7;
+  }
 
-   .page-content{
-     max-width: 660px;
-     margin: auto;
-   }
+  ul {
+    list-style: disc;
+    margin: 0rem 0 2rem 2rem;
+  }
+
+
+  li {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin: 0 0 .5rem;
+  }
 }

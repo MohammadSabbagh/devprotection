@@ -14,16 +14,42 @@
       width: 1.4rem;
       display: inline-block;
       margin: 1rem;
+
       svg {
        width: 100%;
        color: inherit;
        fill: currentColor;
       }
-      
+
       &:hover svg{
         color: inherit;
         fill: currentColor;
       }
     }
   }
+}
+
+.certification{
+
+  h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  .column{
+    text-align: center;
+  }
+
+  img {
+    width: 90px;
+    height: 90px;
+    @include from($desktop) {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
 }
