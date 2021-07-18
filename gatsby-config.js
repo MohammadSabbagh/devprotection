@@ -41,12 +41,12 @@ module.exports = {
       }
     },
 
-    {
-      resolve: `gatsby-plugin-gtag`,
-      // options: {
-      //   trackingId: `UA-73118395-1`,
-      //   head: false,
-      // },
-    },
+    // {
+    //   resolve: `gatsby-plugin-gtag`,
+    //   // options: {
+    //   //   trackingId: `UA-73118395-1`,
+    //   //   head: false,
+    //   // },
+    // },
   ],
 };

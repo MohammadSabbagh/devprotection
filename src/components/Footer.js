@@ -2,7 +2,6 @@ import React from "react"
 
 import Facebook from 'assets/svg/facebook.svg';
 import Instagram from 'assets/svg/instagram.svg';
-import Pinterest from 'assets/svg/pinterest.svg';
 import Youtube from 'assets/svg/youtube.svg';
 import Linkedin from 'assets/svg/linkedin.svg';
 import Twitter from 'assets/svg/twitter.svg';
