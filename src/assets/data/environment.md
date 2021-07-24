@@ -4,7 +4,7 @@ date: "2017-09-18T23:19:51.246Z"
 ---
 
 
-# environment
+# Environment
 
 The guiding principles and decisions of DEV Earthing & Lightning Protection Services CC articulate our commitment to taking responsibility for short and long term economic, social and environmental implications.
 DEV ensures to:
@@ -13,7 +13,7 @@ DEV ensures to:
 - Take action to constantly improvement the performance and natural balance of the environment &
 - Always commit ourselves to a zero-harm policy towards the environment through proper planning and constant awareness during all site activities.
 
-## safety
+## Safety
 
 DEV Earthing & Lightning Protection Services CC has and will continue to maintain a very high standard of safety during all projects.
 The industry’s growing concern of safety and the importance thereof is reflected in DEV’s awareness and conduct with regards to safety during all times of any project.

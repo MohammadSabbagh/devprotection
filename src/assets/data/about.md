@@ -9,7 +9,7 @@ Specialised in the protection of high- and low-power electrical systems and sub-
 
 Although the company was only established in 2021, we are quickly rising to a reputable company in the industry.
 
-The larger proportions of the DEV Earthing & Lightning Protection Services CC team have been working together for the past 20 years and have been involved in major projects throughout Africa, with very reputable references by our various clients throughout the industry.
+The larger proportions of the DEV Earthing & Lightning Protection Services CC team have been working together for the past 20 years and have been involved in major projects throughout Namibia, with very reputable references by our various clients throughout the industry.
 
 The Management of DEV Earthing & Lightning Protection Services CC have an impeccable record in the field of Mining, Petrochemical, as well as the Steel industry.
 
@@ -37,17 +37,8 @@ The success of DEV Earthing & Lightning Protection Services CC will be defined b
 
 ## human resources
 
-Our skilful and knowledgeable employees as well as state-of-the-art equipped are crucial in the delivery of our high-quality solutions.
+Our skillful and knowledgeable employees as well as state-of-the-art equipment are crucial in the delivery of our high-quality solutions.
 
 We believe in providing the right training, accredited certification, and practical knowledge to our employees in order for them to execute their duties in a responsible, professionally and ethical manner.
 
 We strive to stay up-to-date to the ever-changing marketplace and varying client requirements.
-
-## certification
-
-As per South African National Standards (SANS) and the International Electrotechnical Commission (IEC).
-
-- SANS 1063:2010 - (Earth Rod, Couplers and Connectors).
-- SANS 10199:2010 – (Design and Installations).
-- IEC 62305-3 – (Protection against Lightning-part 3: Physical damage to Structures and Life Hazards).
-- IEC 62395 – 4 – (Protection against Lightning – part 4: Electrical Systems within Structures).

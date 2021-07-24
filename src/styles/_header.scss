@@ -20,7 +20,7 @@
     #logo {
       height: 5rem;
       @include from($desktop){
-        height: 7rem;
+        height: 9rem;
       }
     }
 
@@ -47,23 +47,23 @@
     }
 
     &.is-active{
-      height: 360px;
+      height: 330px;
       @include from($desktop) {height: auto;}
     }
 
     .navbar-end {
       align-items: center;
-      margin: 1rem 0 0;
+      padding: 1rem 0 0;
       text-align: center;
       @include from($desktop) {margin: 0 0 0 0;}
     }
 
     .navbar-item {
-      // font-size: 1.25rem;
-      // padding: 1rem;
-      padding: 1rem;
+      padding: 1rem 1.5rem;
       text-align: center;
       font-weight: 700;
+      font-size: 1.25rem;
+
       &.button {
         margin: 1rem 0 0 0;
         display: inline-flex;

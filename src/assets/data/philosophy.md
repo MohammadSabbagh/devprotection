@@ -9,7 +9,7 @@ DEV Earthing & Lightning Protection Services CC is committed in working closely 
 
 ## Project Management and Execution
 
-- Create detailed schedule and resources to meet client’s project objectives.
+- Create detailed schedules and resources to meet client’s project objectives.
 - Communicate clearly with all project stakeholders.
 - Track project progress, highlight and alleviate deviations.
 - Complete and commission the project in a timely manner.

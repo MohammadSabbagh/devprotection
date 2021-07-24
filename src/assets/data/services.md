@@ -2,8 +2,6 @@
 title: services
 ---
 
-# Construction Earthing & Lightning Protection
-
 DEV Earthing & Lightning Protection Services CC is building an impeccable record in the Mining industry.
 
 The company specialises in the Supply, Installation and Commissioning of Earthing & Lightning Protection Services as per the standards and specifications required by the client.
