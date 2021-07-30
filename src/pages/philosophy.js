@@ -7,11 +7,13 @@ import Banner from 'assets/media/project_management.jpg';
 
 // markup
 const Philosophy = ({location, data}) => {
-  const page = data.markdownRemark
+  const { excerpt , html } = data.markdownRemark
   // extract html .replace(/<[^>]*>?/gm, '');
   return (
     <Layout>
       <Seo
+        title={'Philosophy'}
+        description={excerpt}
         pathname={location.pathname}
       />
       <section className="section page">
@@ -20,7 +22,7 @@ const Philosophy = ({location, data}) => {
             <StaticImage placeholder="blurred"  src="../assets/media/project_management.jpg" alt="project_management" />
           </div>
           <div className="content"
-            dangerouslySetInnerHTML={{ __html: page.html }}
+            dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>
       </section>
@@ -32,6 +34,7 @@ export const query = graphql`
   query{
     markdownRemark(frontmatter: {title: {eq: "philosophy"}}) {
       html
+      excerpt
     }
   }`
 

@@ -3,8 +3,8 @@ require("dotenv").config();
 module.exports = {
   siteMetadata: {
     siteUrl: `https://devprotection.net`,
-    title: "DEV Protection",
-    description:"Construction Earthing & Lightning Protection",
+    title: "DEV Earthing & Lighting Protection Services",
+    description:"We specialise in the design, testing, installation, certification, and commissioning of Earthing & Lightning Protection for various High and Low Electrical Power Industries in Namibia.",
     twitter: "@Dev_Protection",
     banner:"/logo.png"
   },
@@ -44,12 +44,12 @@ module.exports = {
       __key: "data",
     },
 
-    // {
-    //   resolve: `gatsby-plugin-gtag`,
-    //   // options: {
-    //   //   trackingId: `UA-73118395-1`,
-    //   //   head: false,
-    //   // },
-    // },
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `G-V8J38H9E3Y`,
+        head: false,
+      },
+    },
   ],
 };

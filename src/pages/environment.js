@@ -7,11 +7,13 @@ import Enviro from 'assets/media/bg.jpg';
 
 // markup
 const Environment = ({location, data}) => {
-  const page = data.markdownRemark
+  const { excerpt , html } = data.markdownRemark
   // extract html .replace(/<[^>]*>?/gm, '');
   return (
     <Layout>
       <Seo
+        title={'Environment'}
+        description={excerpt}
         pathname={location.pathname}
       />
       <section className="section page">
@@ -20,7 +22,7 @@ const Environment = ({location, data}) => {
             <StaticImage placeholder="blurred"  src="../assets/media/bg.jpg" alt="environment" height={500} />
           </div>
           <div className="content"
-            dangerouslySetInnerHTML={{ __html: page.html }}
+            dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>
       </section>
@@ -32,6 +34,7 @@ export const query = graphql`
   query{
     markdownRemark(frontmatter: {title: {eq: "environment"}}) {
       html
+      excerpt
     }
   }`
 

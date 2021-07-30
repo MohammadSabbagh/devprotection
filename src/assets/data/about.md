@@ -1,6 +1,5 @@
 ---
 title: about
-date: "2017-09-18T23:19:51.246Z"
 ---
 
 # DEV Earthing & Lightning Protection Services CC

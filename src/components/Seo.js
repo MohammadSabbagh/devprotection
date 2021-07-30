@@ -33,13 +33,16 @@ const SEO = ({
   const pageType = 'website'
   const lang = 'en'
 
-  const pagePathname = pathname | '/'
-  const pageImage = new URL(image | banner, siteUrl);
+  const pagePathname = pathname || '/'
+  const pageImage = new URL(image || banner, siteUrl);
   const url = new URL( pagePathname, siteUrl);
-  const pageTitle = title | siteTitle;
-  const pageDescription = description | siteDescription;
+  const pageTitle = `${siteTitle} | ${title || ''} `;
+  const pageDescription = description || siteDescription;
 
   const isRootPage = pagePathname =='/'
+
+  console.log('pagePathname',pathname || '/');
+  console.log('pathname',pathname);
 
   return (
     <Helmet>
@@ -67,7 +70,7 @@ const SEO = ({
       }
 
       { isRootPage &&
-        <meta name="google-site-verification" content="" />
+        <meta name="google-site-verification" content="_Qk4NGaUOV3KyGUIUaimOt6fyeDJiJs8aODyjP_UMZ8" />
       }
     </Helmet>
   );

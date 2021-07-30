@@ -15,10 +15,8 @@ const Instantquote = ({location}) => {
   return (
     <Layout>
       <Seo
-        title={'Instant Quote'}
-        lang="en"
+        title={'Request a Quote'}
         pathname={location.pathname}
-        translated
       />
 
       <section className="section">

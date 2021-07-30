@@ -13,12 +13,12 @@ const Service1 = '../assets/media/services_1.jpg'
 
 const IndexPage = ({location, data}) => {
   const page = data.markdownRemark
+  console.log('location.pathname',location.pathname);
 
   return (
     <Layout>
       <Seo
-        title={'dev'}
-        description={'dev desc'}
+        title={'Homepage'}
         pathname={location.pathname}
       />
       <section className="section">

@@ -6,11 +6,14 @@ import Seo from 'components/Seo';
 
 // markup
 const About = ({location, data}) => {
-  const page = data.markdownRemark
+
+  const { excerpt , html } = data.markdownRemark
   // extract html .replace(/<[^>]*>?/gm, '');
   return (
     <Layout>
       <Seo
+        title={'About'}
+        description={excerpt}
         pathname={location.pathname}
       />
       <section className="section">
@@ -23,7 +26,7 @@ const About = ({location, data}) => {
           </div>
         </div>
         <div className="content"
-          dangerouslySetInnerHTML={{ __html: page.html }}
+          dangerouslySetInnerHTML={{ __html: html }}
         />
       </section>
     </Layout>
@@ -34,6 +37,10 @@ export const query = graphql`
   query{
     markdownRemark(frontmatter: {title: {eq: "about"}}) {
       html
+      excerpt
+      frontmatter {
+        title
+      }
     }
   }`
 
