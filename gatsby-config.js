@@ -13,26 +13,7 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     'gatsby-plugin-robots-txt',
-    "gatsby-plugin-image",
     "gatsby-plugin-netlify",
-    `gatsby-alias-imports`,
-    "gatsby-transformer-sharp",
-    "gatsby-transformer-remark",
-    "gatsby-transformer-json",
-    {
-      resolve: `gatsby-plugin-sharp`,
-      options: {
-        defaultQuality:60,
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "data",
-        path: "./src/assets/data/",
-      },
-      __key: "data",
-    },
     {
       resolve: "gatsby-plugin-react-svg",
       options: {
@@ -40,6 +21,27 @@ module.exports = {
           include: /svg/
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaultQuality: 60,
+        placeholder: `blurred`,
+        breakpoints: [750, 1080, 1366, 1920],
+      },
+    },
+    "gatsby-plugin-image",
+    `gatsby-alias-imports`,
+    "gatsby-transformer-sharp",
+    "gatsby-transformer-remark",
+    "gatsby-transformer-json",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "data",
+        path: "./src/assets/data/",
+      },
+      __key: "data",
     },
 
     // {

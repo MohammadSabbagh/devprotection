@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "components/Layout"
 import Seo from 'components/Seo';
 import Banner from 'assets/media/project_management.jpg';
@@ -16,8 +16,8 @@ const Philosophy = ({location, data}) => {
       />
       <section className="section page">
         <div className="container">
-          <div className="content banner">
-            <img src={Banner} />
+          <div className="banner">
+            <StaticImage placeholder="blurred"  src="../assets/media/project_management.jpg" alt="project_management" />
           </div>
           <div className="content"
             dangerouslySetInnerHTML={{ __html: page.html }}

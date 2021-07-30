@@ -6,8 +6,10 @@ import Layout from "components/Layout";
 import Seo from 'components/Seo';
 import ContactForm from 'components/ContactForm'
 import { StaticImage } from "gatsby-plugin-image"
-import Service1 from 'assets/media/services_1.jpg';
-import Chart from 'assets/media/chart.jpg';
+
+
+const Chart = '../assets/media/chart.jpg'
+const Service1 = '../assets/media/services_1.jpg'
 
 const IndexPage = ({location, data}) => {
   const page = data.markdownRemark
@@ -22,15 +24,11 @@ const IndexPage = ({location, data}) => {
       <section className="section">
         <div className="container">
         <h1 className="main-title">Construction Earthing & Lightning Protection</h1>
-          <div className="columns">
+          <div className="columns is-variable is-6">
 
-            <div className="column">
-              <div className="content banner">
-                <img src={Service1} />
-              </div>
-              <div className="content banner">
-                <img src={Chart} />
-              </div>
+            <div className="column content">
+              <StaticImage placeholder="blurred"  src={Service1} alt="services" />
+              <StaticImage placeholder="blurred"  src={Chart} alt="services chart" />
             </div>
 
             <div className="column">

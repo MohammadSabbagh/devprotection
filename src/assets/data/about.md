@@ -21,7 +21,7 @@ Our operations are currently located in Namibia.
 
 Registration Number: CC/2021/01481
 
-## VISION
+## Vision
 
 To be a torchbearer in Earthing & Lightning Protection of High and Low Electrical Power Industries.
 
@@ -35,7 +35,7 @@ The success of DEV Earthing & Lightning Protection Services CC will be defined b
 - Compliance with business requirements and standards.
 
 
-## human resources
+## Human Resources
 
 Our skillful and knowledgeable employees as well as state-of-the-art equipment are crucial in the delivery of our high-quality solutions.
 

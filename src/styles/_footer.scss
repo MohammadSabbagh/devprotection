@@ -1,5 +1,8 @@
 
 .footer{
+  background-color: $primary;
+  color: $dark;
+
   .level{
     flex-direction: column-reverse;
     display: flex;

@@ -23,26 +23,26 @@ export default function ContactForm() {
     }
 
     console.log('data',data);
-    //
-    // const url = '/.netlify/functions/instantQuote';
-    // const payload = {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json'},
-    //   body: JSON.stringify(data)
-    // }
-    //
-    // const response = await fetch(url, payload);
-    //
-    // console.log('response',response);
-    
+
+    const url = '/.netlify/functions/instantQuote';
+    const payload = {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json'},
+      body: JSON.stringify(data)
+    }
+
+    const response = await fetch(url, payload);
+
+    console.log('response',response);
+
     setLoading(false)
-    //
-    // if (response.status == 200){
-    //   navigate('/thank-you')
-    // }else {
-    //   console.log('error');
-    //   setError(true);
-    // }
+
+    if (response.status == 200){
+      navigate('/thank-you')
+    }else {
+      console.log('error');
+      setError(true);
+    }
 
   }
 

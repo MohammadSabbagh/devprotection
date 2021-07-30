@@ -1,10 +1,8 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "components/Layout"
 import Seo from 'components/Seo';
-import Service2 from 'assets/media/services_2.jpg';
-import Service3 from 'assets/media/services_3.jpg';
 
 // markup
 const About = ({location, data}) => {
@@ -18,10 +16,10 @@ const About = ({location, data}) => {
       <section className="section">
         <div className="columns">
           <div className="column">
-            <img src={Service2} />
+            <StaticImage placeholder="blurred"  src="../assets/media/services_2.jpg" alt="services 2" />
           </div>
           <div className="column">
-            <img src={Service3} />
+            <StaticImage placeholder="blurred"  src="../assets/media/services_3.jpg" alt="services 3" />
           </div>
         </div>
         <div className="content"

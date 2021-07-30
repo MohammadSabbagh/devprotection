@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "components/Layout"
 import Seo from 'components/Seo';
 import Enviro from 'assets/media/bg.jpg';
@@ -16,8 +16,8 @@ const Environment = ({location, data}) => {
       />
       <section className="section page">
         <div className="container">
-          <div className="content banner">
-            <img src={Enviro} />
+          <div className="banner">
+            <StaticImage placeholder="blurred"  src="../assets/media/bg.jpg" alt="environment" height={500} />
           </div>
           <div className="content"
             dangerouslySetInnerHTML={{ __html: page.html }}

@@ -10,13 +10,13 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $header;
-  font-weight: 600;
+  //color: $header;
+  //font-weight: 600;
   //text-transform: capitalize;
 }
 
 .main-title{
-  color: #FAC110;
+  color: $primary;
   font-weight: 700;
   line-height: 1.125;
   font-size: 2rem;
@@ -25,28 +25,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-title{
-  font-size: 1.75rem;
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 4rem;
-  font-weight: 400;
-  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .content {
   max-width: 800px;
   margin: 0 auto;
+
+  .gatsby-image-wrapper{
+    margin-bottom: 2rem;
+    text-align: center;
+  }
 }
 
 .banner{
   text-align: center;
-  img{
-    max-width: 500px;
-    max-height: 500px;
-    width: 100%;
-  }
+  margin-bottom: 3rem;
 }
 
 .certification{
+  background-color: $light;
 
   .column{
     text-align: center;
@@ -61,4 +62,16 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 
+}
+
+.contacts{
+  font-size: 1.25rem;
+  line-height: 1.7;
+  .section-title{
+    color: $dark;
+  }
+  
+  a {
+    font-size: 1.5rem;
+  }
 }

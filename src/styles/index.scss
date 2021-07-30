@@ -15,8 +15,6 @@ $hue: #FA6F0F;
 $comp-light: #0F98FA;
 $comp-dark: #230FFA;
 
-$header: $logo;
-
 $primary: $logo;
 $link: #0F4AFA;
 $info: $comp-light;
@@ -24,8 +22,8 @@ $success: $comp-dark;
 $warning: $yellow;
 $danger: $red;
 
-$dark: $grey-darker;
-$text: $grey-dark;
+//$dark: $grey-darker;
+//$text: $grey-dark;
 
 // $dark: hsl(0, 0%, 14%);
 // $light: $white-ter;
@@ -38,7 +36,7 @@ $text: $grey-dark;
 // $body-weight:$weight-light;
 
 $navbar-background-color: transparent;
-//$navbar-item-color: $grey-light;
+$navbar-item-color: $grey-darker;
 $navbar-item-hover-color: $link;
 $navbar-item-hover-background-color:transparent;
 $navbar-item-active-color:$link;
@@ -48,7 +46,7 @@ $footer-background-color:transparent;
 $footer-padding: 3rem 1.5rem;
 $control-radius: 0;
 
-$content-heading-color: $header;
+$content-heading-color: $primary;
 $content-heading-weight: 600;
 
 
