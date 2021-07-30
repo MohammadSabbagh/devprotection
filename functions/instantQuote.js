@@ -4,8 +4,9 @@ const Mailgun = require('mailgun.js');
 const { MAILGUN_API_KEY } = process.env;
 const { MAILGUN_EMAIL } = process.env;
 
+const COMPANY = 'DEV Protection'
 const DOMAIN = 'devprotection.net';
-const EMAIL_RECV = MAILGUN_EMAIL || 'mohammad.sabbagh@gmail.com';
+const EMAIL_RECV = MAILGUN_EMAIL;
 
 const config = {
   username: 'api',
@@ -28,13 +29,13 @@ exports.handler = async function (event, context, callback) {
     Description: ${message}
 
     --
-    This e-mail was sent from 4space.ae
+    This e-mail was sent from ${DOMAIN}
     `;
 
   const mailObj = {
-      from: "4SPACE website <website@4space.com>",
+      from: `${COMPANY} <website@${DOMAIN}>`,
       to: [EMAIL_RECV],
-      subject: "4SPACE Website - Instant Quote",
+      subject: `${COMPANY} - Instant Quote`,
       text: msg,
     };
 

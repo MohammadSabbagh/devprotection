@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "bulma": "^0.9.3",
+    "form-data": "^4.0.0",
     "gatsby": "^3.9.1",
     "gatsby-alias-imports": "^1.0.6",
     "gatsby-plugin-gtag": "^1.0.13",
@@ -31,6 +32,7 @@
     "gatsby-transformer-json": "^3.9.0",
     "gatsby-transformer-remark": "^4.6.0",
     "gatsby-transformer-sharp": "^3.8.0",
+    "mailgun.js": "^3.5.2",
     "netlify-cli": "^4.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
