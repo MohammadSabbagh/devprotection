@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-title{
   color: $primary;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1.125;
   font-size: 2rem;
   margin-bottom: 4rem;
@@ -28,7 +28,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 4rem;
-  font-weight: 600;
+  font-weight: 900;
+  letter-spacing: .5px;
 }
 
 .content {
@@ -67,10 +68,11 @@ h1, h2, h3, h4, h5, h6 {
 .contacts{
   font-size: 1.25rem;
   line-height: 1.7;
+  background: $bg-light;
   .section-title{
     color: $dark;
   }
-  
+
   a {
     font-size: 1.5rem;
   }
